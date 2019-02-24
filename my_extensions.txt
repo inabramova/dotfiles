@@ -1,0 +1,9 @@
+2gua.rainbow-brackets
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+mrmlnc.vscode-scss
+naumovs.color-highlight
+xabikos.ReactSnippets
