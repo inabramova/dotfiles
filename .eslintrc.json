@@ -11,6 +11,7 @@
     }
   },
   "rules": {
+    "no-debugger": 1,
     "no-console": 0,
     "max-len": ["error", 100],
     "no-process-env": "off",
@@ -22,6 +23,7 @@
         "extensions": [".js", ".jsx"]
       }
     ],
+    "react/prop-types": 1,
     "react/destructuring-assignment": [0, "never"],
     "prettier/prettier": [
       "error",
@@ -29,6 +31,21 @@
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 80
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreSiblings": true,
+        "argsIgnorePattern": "res|next|^err|reject"
+      }
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
       }
     ]
   },
